@@ -1,0 +1,14 @@
+We want to make a row of bricks that is `goal` inches long.
+We have a number of small bricks each of which is 1(one) inch long and big bricks
+each of which is 5(five) inches long. Write a function to
+return `true` if it is possible to make the `goal`
+by choosing from the given bricks and `false` if it is not.
+This is a little harder than it looks and can be done without any loops.
+
+The first parameter for the function is the number of small bricks
+The second parameter for the function is the number of big bricks
+The third parameter is the goal(the length of brick combination we are trying to form)
+
+makeBricks(3, 1, 8) → true
+makeBricks(3, 1, 9) → false
+makeBricks(3, 2, 10) → true

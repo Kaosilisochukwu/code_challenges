@@ -1,0 +1,15 @@
+{
+  "name": "probation",
+  "version": "1.0.0",
+  "description": "Given a list of positive integers, the adjacent integers will perform the float division.For example, [2, 3, 4] -> 2 / 3 / 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
